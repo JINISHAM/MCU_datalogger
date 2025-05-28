@@ -1,0 +1,19 @@
+# Ignore backup folders and files
+*~                 # All files ending with ~
+*.bak              # Backup files
+*-backup/          # Folders ending in -backup
+*-backups/         # Folders ending in -backups
+backup/
+backups/
+
+# Ignore cache files and folders
+cache/
+*.cache
+fp-info-cache/
+
+# Ignore zipped/archived files
+*.zip
+*.rar
+*.7z
+
+
