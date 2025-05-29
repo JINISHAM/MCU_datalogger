@@ -487,7 +487,11 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/VCC": [
+        "Power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
