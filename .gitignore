@@ -5,6 +5,8 @@
 *-backups/         # Folders ending in -backups
 backup/
 backups/
+*.lck
+
 
 # Ignore cache files and folders
 cache/
