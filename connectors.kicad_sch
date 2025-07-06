@@ -992,7 +992,7 @@
 		)
 		(uuid "296362b8-d13f-482f-9717-c46fcbfa3446")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 63.5 53.34 0)
 		(effects
