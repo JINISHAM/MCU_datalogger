@@ -3931,6 +3931,28 @@
 		(uuid "9b71a5cf-d71b-40cf-b6ac-e3b4800f1105")
 	)
 	(label "VCC"
+		(at 266.7 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0ca4f80-1a9b-415b-b9b3-74a1274030cc")
+		(property "Netclass" "Power"
+			(at 266.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(label "VCC"
 		(at 38.1 138.43 180)
 		(effects
 			(font
