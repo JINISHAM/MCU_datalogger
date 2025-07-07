@@ -971,7 +971,7 @@
 		(uuid "0346c045-3cb7-4ecc-b2ea-4b5fd48df912")
 	)
 	(hierarchical_label "SCK"
-		(shape bidirectional)
+		(shape passive)
 		(at 85.09 76.2 180)
 		(effects
 			(font
@@ -979,7 +979,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0a1e3f6e-badc-4ec1-86fb-ee97163289af")
+		(uuid "0fbd98fa-d26f-44f6-96c7-f2b4d2488fe5")
 	)
 	(hierarchical_label "D5"
 		(shape bidirectional)
@@ -991,17 +991,6 @@
 			(justify left)
 		)
 		(uuid "296362b8-d13f-482f-9717-c46fcbfa3446")
-	)
-	(hierarchical_label "SCL"
-		(shape bidirectional)
-		(at 63.5 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "328d34b3-bf47-406e-a974-cb6e212d594d")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
@@ -1200,6 +1189,17 @@
 			(justify left)
 		)
 		(uuid "ed098a6d-a0a9-41c0-88d8-2abfc7eda2bd")
+	)
+	(hierarchical_label "SCL"
+		(shape passive)
+		(at 63.5 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f46f24ae-48f1-4381-bd6a-e8f5c41e86fd")
 	)
 	(hierarchical_label "D7"
 		(shape bidirectional)

@@ -2820,16 +2820,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 127) (xy 48.26 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0710e9d0-9a3d-452d-b8b8-8312bb1c00e4")
-	)
-	(wire
-		(pts
 			(xy 48.26 143.51) (xy 48.26 144.78)
 		)
 		(stroke
@@ -7331,9 +7321,9 @@
 				(justify right)
 			)
 		)
-		(pin "SCK" bidirectional
-			(at 184.15 140.97 180)
-			(uuid "9b9b6748-4a76-49f1-aa7f-a555717abe07")
+		(pin "SCL" passive
+			(at 184.15 135.89 180)
+			(uuid "e7068340-fd2f-4f45-bc76-22cf2b4a24b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,9 +7331,9 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" bidirectional
-			(at 184.15 135.89 180)
-			(uuid "c0460df6-2c73-4ff2-a3d5-dd599061ef7e")
+		(pin "SCK" passive
+			(at 184.15 140.97 180)
+			(uuid "2675f6b9-3e28-4ce6-ac7d-f520c20d9735")
 			(effects
 				(font
 					(size 1.27 1.27)
